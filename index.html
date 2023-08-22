@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='css/style.css'>
+    <title>Trabalho 2º Trimestre</title>
+</head>
+
+<body id='bg'>
+
+    <div class="corpo">
+        <div class="container">
+            <form id='form' action='teste.php'>
+                <div class="head">
+                    <span>Faça seu login</span>
+
+                </div>
+
+                <span class='subdiv'>Dados Pessoais</span>
+                <div class="inputs">
+                    <input type="text" id='nome' placeholder="Nome"><br>
+                    <small id='helpnome'></small>
+
+                    <input type="text" id='snome' placeholder="Sobrenome"><br>
+                    <small id='helpsnome'></small>
+
+                    <input type="date" id='nasc' placeholder="Data de Nascimento (DD/MM/AAAA)"><br>
+                    <small id='helpnasc'></small>
+
+                    <input type="text" id='cpf' placeholder="CPF"><br>
+                    <small id='helpcpf'></small>
+
+                </div>
+
+
+                <span class='subdiv'>Informações de Contato</span>
+                <div class='inputs'>
+
+                    <input type="number" id='tel' placeholder="Telefone">
+                    <br>
+                    <small id='helptel'></small>
+
+                    <input type="text" id='email' placeholder="Email"><br>
+                    <small id='helpemail'></small>
+                </div>
+
+                <span class='subdiv'>Crie sua Senha</span>
+                <div class='inputs'>
+
+                    <input type="password" id='senha' placeholder="crie uma senha"><br>
+                    <small id='helpsenha'></small>
+
+                    <input type="password" id='senha2' placeholder="confirme a senha"><br>
+                    <small id='helpsenha2'></small>
+                </div>
+
+                <div class='botoes'>
+                    <button type='submit' id='enviar'>Enviar</button>
+                    <button id='limpar' type="reset">Limpar</button>
+                    <button id='valida' type="button">Validar</button>
+                </div>
+            </form>
+
+            
+            <div class="rodape">
+                <p>Obrigado por preencher o formulário!</a></p>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+</body>
+<script type='text/javascript' src='js/trabalho.js'></script>
+
+</html>
